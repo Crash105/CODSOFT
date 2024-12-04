@@ -30,8 +30,6 @@ Guess the randomly generated number between 1 and 100 within the given attempts 
   - The Formula for your Score: (4 * number of rounds) + (2 * number of attempts)
 
 ### Game Ending Conditions
-- 
-- Player completes or fails all 3 rounds
 - Message "You are out of rounds" displays when no rounds remain
 
 ## Example Gameplay
