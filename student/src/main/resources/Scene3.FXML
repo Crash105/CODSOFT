@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="students.Controller1">
+   <children>
+      <Label layoutX="68.0" layoutY="27.0" text="Add Student" />
+      <TextField fx:id="myTextField1" layoutX="35.0" layoutY="86.0" />
+      <TextField fx:id="myTextField2" layoutX="35.0" layoutY="155.0" />
+      <TextField fx:id="myTextField3" layoutX="35.0" layoutY="222.0" />
+      <Label layoutX="84.0" layoutY="61.0" text="Name" />
+      <Label layoutX="85.0" layoutY="131.0" text="RollID" />
+      <Label layoutX="57.0" layoutY="192.0" text="GPA(Enter Number)" />
+      <Button layoutX="76.0" layoutY="292.0" mnemonicParsing="false" onAction="#submit" text="Submit" />
+      <Label layoutX="255.0" layoutY="27.0" text="Current Students" />
+      <TextArea fx:id="textArea1" layoutX="214.0" layoutY="61.0" prefHeight="170.0" prefWidth="200.0" />
+      <ChoiceBox fx:id="dropdown" layoutX="240.0" layoutY="280.0" prefWidth="150.0" />
+      <Label layoutX="272.0" layoutY="251.0" text="Delete Students" />
+      <Button layoutX="281.0" layoutY="334.0" mnemonicParsing="false" onAction="#submit2" text="Delete" />
+      <Label fx:id="myLabel" layoutX="88.0" layoutY="259.0" text="Label" />
+      <ChoiceBox fx:id="dropdown2" layoutX="429.0" layoutY="57.0" prefWidth="150.0" />
+      <TextField fx:id="myTextField4" layoutX="430.0" layoutY="134.0" />
+      <TextField fx:id="myTextField5" layoutX="430.0" layoutY="210.0" />
+      <TextField fx:id="myTextField6" layoutX="430.0" layoutY="292.0" />
+      <Label layoutX="477.0" layoutY="103.0" text="Name" />
+      <Label layoutX="477.0" layoutY="184.0" text="RollID" />
+      <Label layoutX="479.0" layoutY="268.0" text="GPA" />
+      <Label layoutX="470.0" layoutY="27.0" text="Edit Students" />
+      <Button layoutX="476.0" layoutY="341.0" mnemonicParsing="false" onAction="#submit3" text="Edit" />
+   </children>
+</AnchorPane>
