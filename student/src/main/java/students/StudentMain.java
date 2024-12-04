@@ -1,6 +1,9 @@
 package students;
 
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Map;
 
 public class StudentMain {
 
@@ -21,29 +24,23 @@ public class StudentMain {
     }
 
     public void removeStudent(String rollnumber) {
-        for (int i = 0; i < students.size(); i++) {
-            if (students.get(i).getRollNumber().equals(rollnumber)) {
-                students.remove(i);
+        Iterator<StudentMain> iterator = students.iterator();
+        while (iterator.hasNext()) {
+            if (iterator.next().getRollNumber().equals(rollnumber)) {
+                iterator.remove();
             }
         }
-    }
 
-    public String searchStudent(String rollnumber) {
-        for (int i = 0; i < students.size(); i++) {
-            if (students.get(i).getRollNumber().equals(rollnumber)) { // Compare rollnumber
-                return "Name: " + students.get(i).getName() + ", GPA: " + students.get(i).getGPA();
-            }
-        }
-        return "Student with rollnumber " + rollnumber + " not found.";
     }
 
     public int getIndex(String rollnumber) {
+        Map<String, Integer> rollNumberIndexMap = new HashMap<>();
+
         for (int i = 0; i < students.size(); i++) {
-            if (students.get(i).getRollNumber().equals(rollnumber)) { // Compare rollnumber
-                return i;
-            }
+            rollNumberIndexMap.put(students.get(i).getRollNumber(), i);
         }
-        return -1;
+        return rollNumberIndexMap.get(rollnumber);
+
     }
 
     public String getName() {
