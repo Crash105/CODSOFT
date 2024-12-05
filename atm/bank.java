@@ -19,5 +19,9 @@ public class bank {
 
         System.out.println(atm1.checkBalance());
 
+        atm1.deposit(100);
+
+        System.out.println(atm1.checkBalance());
+
     }
 }
