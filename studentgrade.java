@@ -13,9 +13,9 @@ public class studentgrade {
         System.out.println("Enter Students Grade for each subjects");
 
         for (int i = 0; i < subjects.length; i++) {
+            System.out.print("Enter Grade For: " + subjects[i] + " ");
             int grade = scanner.nextInt();
             totalmarks = totalmarks + grade;
-            System.out.println("Enter Next Grade");
 
         }
 
@@ -34,7 +34,7 @@ public class studentgrade {
             grade = "F";
         }
         System.out.println("");
-        System.out.println("Total Marks:" + totalmarks);
+        System.out.println("Total Marks: " + totalmarks);
         System.out.println("Average Percentage: " + average + "%");
         System.out.println("Grade Calculation: " + grade);
 

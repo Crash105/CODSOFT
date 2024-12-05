@@ -110,22 +110,7 @@ public class Controller1 implements Initializable {
 
         }
 
-        student1.students.get(index).setName(name);
-        rollnumber = myTextField5.getText();
-        try {
-            gpa = Double.parseDouble(myTextField6.getText());
-        } catch (NumberFormatException e) {
-            myLabel.setText("Enter only numbers or Fill out GPA Field");
-
-        } catch (Exception e) {
-            System.out.println(e);
-
-        }
-
-        // gpa = Double.parseDouble(myTextField3.getText());
-
         textArea1.setText(student1.displayStudents());
-        // myLabel.setText("Student Has Been Added");
 
     }
 
