@@ -6,7 +6,6 @@ This is a JavaFX-based Student Management System developed using Maven, designed
 ## Features
 - **Efficient Student Storage**: Uses HashMap algorithm for rapid student index lookup
 - **Performance Optimized**: Improved lookup speed by 50% through advanced data structure implementation
-- **Concurrency Protection**: Implemented Iterator to prevent concurrent modification issues
 - **Admin Functionality**:
   - Create students with name, roll ID, and grade
   - Edit student information (name and GPA)
@@ -26,7 +25,7 @@ This is a JavaFX-based Student Management System developed using Maven, designed
 ### Performance Highlights
 - Lookup Speed: 50% improvement compared to traditional linear search methods
 - Robust input validation
-- Concurrency-safe design
+
 
 ## Getting Started
 
