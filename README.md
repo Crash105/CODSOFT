@@ -38,7 +38,11 @@ Make sure when you go the above link , change the branch from 4e6c1ff to master
 
 ### 5. Student Management Application  
 - Built a Java Swing-based application for managing student records.  
-- Utilized HashMap algorithms to optimize student lookups and record handling.  
+- Utilized HashMap algorithms to optimize student lookups and record handling.
+
+[README FILE](https://github.com/Crash105/CODSOFT/blob/main/studentmanage.md)
+
+[GITHUB](https://github.com/Crash105/CODSOFT/tree/main/student)
 
 ## Reflections and Future Plans  
 One of the highlights of this internship was stepping outside my comfort zone to learn new tools like JavaFX and focusing on optimizing algorithms for better performance.  
