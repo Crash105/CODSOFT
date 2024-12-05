@@ -15,30 +15,32 @@ public class StudentMain {
     private String rollnumber;
     private double gpa;
     public static ArrayList<StudentMain> students = new ArrayList<>();
+    private static Map<String, Integer> rollNumberIndexMap = new HashMap<>();
 
     public StudentMain(String name, String rollnumber, double gpa) {
         this.name = name;
         this.rollnumber = rollnumber;
         this.gpa = gpa;
         students.add(this);
+        rollNumberIndexMap.put(rollnumber, students.size() - 1);
+        System.out.println(rollNumberIndexMap);
     }
 
     public void removeStudent(String rollnumber) {
-        Iterator<StudentMain> iterator = students.iterator();
-        while (iterator.hasNext()) {
-            if (iterator.next().getRollNumber().equals(rollnumber)) {
-                iterator.remove();
-            }
-        }
 
+        int index = rollNumberIndexMap.get(rollnumber);
+        System.out.println("Index: " + index);
+
+        students.remove(index);
+        rollNumberIndexMap.remove(rollnumber);
+
+        for (int i = index; i < students.size(); i++) {
+            rollNumberIndexMap.put(students.get(i).getRollNumber(), i);
+        }
     }
 
     public int getIndex(String rollnumber) {
-        Map<String, Integer> rollNumberIndexMap = new HashMap<>();
 
-        for (int i = 0; i < students.size(); i++) {
-            rollNumberIndexMap.put(students.get(i).getRollNumber(), i);
-        }
         return rollNumberIndexMap.get(rollnumber);
 
     }

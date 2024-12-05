@@ -124,13 +124,6 @@ public class Controller1 implements Initializable {
             System.out.println("students is null!");
         }
 
-        if (student1.students != null) {
-            for (StudentMain student1 : student1.students) {
-                dropdown2.getItems().add(student1.getRollNumber());
-            }
-        } else {
-            System.out.println("students is null!");
-        }
     }
 
 }
