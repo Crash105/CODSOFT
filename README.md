@@ -21,6 +21,10 @@ Calculates and displays total marks, average percentage, and the corresponding g
 ### 3. ATM Interface  
 Simulates an ATM, allowing users to modify their account balance through withdrawals and deposits.  
 
+[README FILE](https://github.com/Crash105/CODSOFT/blob/main/ATM.md)
+
+[GITHUB](https://github.com/Crash105/CODSOFT/tree/main/atm)
+
 ### 4. Currency Converter GUI  
 - Designed a Java Swing-based GUI for real-time currency conversion across 35 international currencies.  
 - Used the exchangeRatesAPI.io API for accurate exchange rates.  
