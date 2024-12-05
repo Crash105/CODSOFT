@@ -5,11 +5,18 @@ This repository contains the projects I developed during my 4-week Java Develope
 ## Applications Developed  
 ### 1. Number Guesser Game  
 A simple game where users guess a randomly generated number between 1 and 100. 
+
 [README FILE](https://github.com/Crash105/CODSOFT/blob/main/NumberGuesser.md)
+
 [GITHUB](https://github.com/Crash105/CODSOFT/blob/main/numberguesser.java)
 
 ### 2. Student Grade Calculator  
 Calculates and displays total marks, average percentage, and the corresponding grade based on user input.  
+
+[README FILE](https://github.com/Crash105/CODSOFT/blob/main/STUDENT.md)
+
+[GITHUB](https://github.com/Crash105/CODSOFT/blob/main/studentgrade.java)
+
 
 ### 3. ATM Interface  
 Simulates an ATM, allowing users to modify their account balance through withdrawals and deposits.  
