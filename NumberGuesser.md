@@ -22,12 +22,6 @@ Guess the randomly generated number between 1 and 100 within the given attempts 
    - "Your Guess Is Too Low" (if guess is lower than the number)
    - "Your Guess is Correct" (if guess matches the number)
 
-### Scoring System
-- **Round Points**: 4 points per round
-- **Attempt Points**: 2 points per remaining attempt
-- **Scoring Calculation**:
-  - Successfully guessing the number reduces round and allows you to earn points
-  - The Formula for your Score: (4 * number of rounds) + (2 * number of attempts)
 
 ### Game Ending Conditions
 - Message "You are out of rounds" displays when no rounds remain
@@ -35,14 +29,15 @@ Guess the randomly generated number between 1 and 100 within the given attempts 
 ## Example Gameplay
 
 ```
-Round 1 (Attempts: 4)
-Guess a number between 1-100: 50
+Guess a random number between 1 to 100. You will have 3 roudns and 4 attempts each to guess the number
+User Enters Number 90
+You are on Round:3 Attempt 3
 Your Guess Is Too High
-Remaining Attempts: 3
 
-Guess a number between 1-100: 25
+User Enters Number 20
+You are on Round:3 Attempt 2
 Your Guess Is Too Low
-Remaining Attempts: 2
+
 
 ...
 ```
