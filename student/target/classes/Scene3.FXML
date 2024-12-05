@@ -7,7 +7,6 @@
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
 
-
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="students.Controller1">
    <children>
       <Label layoutX="68.0" layoutY="27.0" text="Add Student" />
@@ -26,12 +25,10 @@
       <Label fx:id="myLabel" layoutX="88.0" layoutY="259.0" text="Label" />
       <ChoiceBox fx:id="dropdown2" layoutX="429.0" layoutY="57.0" prefWidth="150.0" />
       <TextField fx:id="myTextField4" layoutX="430.0" layoutY="134.0" />
-      <TextField fx:id="myTextField5" layoutX="430.0" layoutY="210.0" />
-      <TextField fx:id="myTextField6" layoutX="430.0" layoutY="292.0" />
+      <TextField fx:id="myTextField6" layoutX="430.0" layoutY="219.0" />
       <Label layoutX="477.0" layoutY="103.0" text="Name" />
-      <Label layoutX="477.0" layoutY="184.0" text="RollID" />
-      <Label layoutX="479.0" layoutY="268.0" text="GPA" />
+      <Label layoutX="482.0" layoutY="192.0" text="GPA" />
       <Label layoutX="470.0" layoutY="27.0" text="Edit Students" />
-      <Button layoutX="476.0" layoutY="341.0" mnemonicParsing="false" onAction="#submit3" text="Edit" />
+      <Button layoutX="475.0" layoutY="255.0" mnemonicParsing="false" onAction="#submit3" text="Edit" />
    </children>
 </AnchorPane>
